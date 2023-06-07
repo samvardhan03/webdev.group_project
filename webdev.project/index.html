@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <span class="infinity-sign">&#8734;</span>
+    <h1>MY NOTES</h1>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul class="navbar">
+        <li class="category active"><span class="category-icon pastel-blue"></span> Category 1</li>
+        <li class="category"><span class="category-icon pastel-orange"></span> Category 2</li>
+        <li class="category"><span class="category-icon pastel-yellow"></span> Category 3</li>
+        <li class="category"><span class="category-icon pastel-green"></span> Category 4</li>
+        <li class="category"><span class="category-icon pastel-pink"></span> Category 5</li>
+        <li class="category"><span class="category-icon pastel-purple"></span> Category 6</li>
+        <li class="category"><span class="category-icon pastel-teal"></span> Category 7</li>
+        <li class="category"><span class="category-icon pastel-lime"></span> Category 8</li>
+        <li class="category"><span class="category-icon pastel-coral"></span> Category 9</li>
+        <li class="category"><span class="category-icon pastel-indigo"></span> Category 10</li>
+        <li class="category"><span class="category-icon pastel-mint"></span> Category 11</li>
+        <li class="category"><span class="category-icon pastel-lavender"></span> Category 12</li>
+        <li class="add-category"><span class="plus-sign">+</span> New Category</li>
+        <li class="option"><span class="option-icon trash-icon"></span> Trash Folder</li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <div class="column">
+        <h2>Category 1</h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card pastel-blue">
+                <h3>Note 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus, nunc id lobortis elementum, mi lectus interdum enim, in elementum ex turpis id sapien.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card pastel-blue">
+                <h3>Note 2</h3>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed feugiat risus nec eleifend commodo.</p>
+              </div>
+            </div>
+            <!-- More cards for Category 1 -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <h2>Category 2</h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card pastel-orange">
+                <h3>Note 3</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card pastel-orange">
+                <h3>Note 4</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+              </div>
+            </div>
+            <!-- More cards for Category 2 -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <h2>Category 3</h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card pastel-yellow">
+                <h3>Note 5</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card pastel-yellow">
+                <h3>Note 6</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <!-- More cards for Category 3 -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

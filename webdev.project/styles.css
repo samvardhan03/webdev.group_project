@@ -1,0 +1,192 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9;
+  }
+  
+  header {
+    background-color: #F6EDEB;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .infinity-sign {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .search-bar {
+    margin-top: 10px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  nav {
+    width: 200px;
+    background-color: #FFD8C0;
+    padding: 20px;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-bottom: 10px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar li.add-category,
+  .navbar li.option {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .category-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .pastel-blue {
+    background-color: #C5E0F9;
+  }
+  
+  .pastel-orange {
+    background-color: #FFC79F;
+  }
+  
+  .pastel-yellow {
+    background-color: #FFF5BA;
+  }
+  
+  .pastel-green {
+    background-color: #B3D89C;
+  }
+  
+  .pastel-pink {
+    background-color: #F5BBD3;
+  }
+  
+  .pastel-purple {
+    background-color: #D8B6FF;
+  }
+  
+  .pastel-teal {
+    background-color: #A7E3F2;
+  }
+  
+  .pastel-lime {
+    background-color: #E8FFBC;
+  }
+  
+  .pastel-coral {
+    background-color: #FFBCBC;
+  }
+  
+  .pastel-indigo {
+    background-color: #A3ABFF;
+  }
+  
+  .pastel-mint {
+    background-color: #A0E6AC;
+  }
+  
+  .pastel-lavender {
+    background-color: #D5C8FF;
+  }
+  
+  .plus-sign {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .option-icon.trash-icon {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-left: 230px;
+    overflow-y: auto;
+    margin-top: -300px; /* Added to shift the notes upwards */
+  }
+  
+  
+  .column {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .swiper-container {
+    height: 100%;
+  }
+  
+  .card {
+    background-color: #c5e9f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transform: scale(0.95);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .swiper-slide-active .card {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #777;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #333;
+  }
+  
